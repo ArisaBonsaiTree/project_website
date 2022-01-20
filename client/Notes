@@ -1,0 +1,6 @@
+npx create-react-app .
+
+npm i sass --> Install sass into our project
+
+index.js contains our routes
+App.js is just our main page

@@ -1,0 +1,24 @@
+.header{
+    text-align: center;
+    
+    h1{
+        display: inline-block;
+        text-decoration: underline;
+    }
+}
+
+
+
+.linkRouter{
+    text-decoration: none;
+    color: black;
+    
+    &:hover{
+        color: blue;
+        text-decoration: underline;
+    }
+    display: block;
+    margin-top: 2em;
+    
+    background-color: purple;
+}
