@@ -3,19 +3,17 @@ import ReactDOM, {render} from 'react-dom';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import App from './App/App';
+import MainPage from './MainPage/MainPage';
 
-import Expenses from './Expenses'
-import Invoices from './Invoices'
+import Expenses from './Expeneses/Expenses'
 
 const rootElement = document.getElementById('root')
 
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
-      <Route exact path='/' element={<App/>}/>
+      <Route exact path='/' element={<MainPage/>}/>
       <Route path='expenses' element={<Expenses/>}></Route>
-      <Route path='invoices' element={<Invoices/>}></Route>
     </Routes>
   </BrowserRouter>,
   rootElement
