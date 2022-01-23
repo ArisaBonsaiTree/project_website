@@ -1,0 +1,12 @@
+.header{
+    display: flex;
+    flex-direction: row;
+
+    .img-div{
+        img{
+            justify-content: flex-start;
+            margin-right: 0.3em;
+            width: 5em;
+        }
+    }
+}

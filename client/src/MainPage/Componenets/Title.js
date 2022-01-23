@@ -2,20 +2,21 @@ import React, {useState, useEffect, createContext} from "react";
 
 import pic from '../../Images/pfpGH.png'
 
+import './Title.scss'
+
 function Title() {
     return  (
-        <div className="class">
-
+        <section className="title">
             <div className="header">
                 <div className="img-div">
                     <img src={pic} alt="" />
                 </div>
             
                 <div className="header-div">
-                    <h1>API Workshop</h1>
+                    <h1>Arisa Bonsai Tree</h1>
                 </div>
             </div>
-        </div>
+        </section>
     )
 };
 

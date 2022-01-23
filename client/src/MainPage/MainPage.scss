@@ -1,33 +1,19 @@
+// EVERYTHING
 *{
     scroll-behavior: smooth;
 }
 
+// Everything on the loaded page
 body{
     font-family: sans-serif;
 }
 
-.header{
-    display: flex;
-    flex-direction: row;
-
-    .img-div{
-        img{
-            justify-content: flex-start;
-            margin-right: 0.3em;
-            width: 5em;
-        }
-    }
-    .header-div{
-
-    }
-
-    
-    margin-bottom: 1em;
-
-}
-
 #navbar{
     overflow: hidden;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    position: sticky;
     background-color: #333;
     a{
         float: left;
@@ -42,8 +28,7 @@ body{
 
 
 
-#home, #about, #work, #contact{
-    height: 100vh;
+#home, #about, #projects, #contact{
     border-bottom: 5px solid black;
 }
 
